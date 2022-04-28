@@ -205,7 +205,8 @@ width: 30px;}
 	/* display: flex; */
 	background-color: white;
 	width: 848px;
-	height: 67px;
+	height: 64px;
+	line-height: 18px;
 	margin-left: 149px;
 	border-radius: 45px;
 	
@@ -239,6 +240,7 @@ align-items: center;
 .location {
 	cursor: pointer;
     width:28%;
+	font-size: 12px;
 	/* border-radius: 50%; */
 	
 }
@@ -304,8 +306,11 @@ input[type=date]
 .date {
     width: 15%;
 	padding-right: 30px;
+	font-size: 12px;
+
 }
-.gusest{
+.guest{	font-size: 12px;
+
 }
 .seprateline{
 	border-left: 1px solid #e6e3e3;
