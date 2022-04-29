@@ -408,3 +408,99 @@ top: 2px;
 
 }
 /***********************end of header*******************************/
+
+/* =====================start of subheader======================== */
+
+
+/* main div */
+
+.div__half{
+
+    width: 100%;
+    height: 596px;
+    background: linear-gradient(to bottom, #000 50%, #fff 50%);
+    position: relative;
+   
+}
+/* image in main div */
+.div__half--img{
+    width: 1191px;
+    margin: 0 80px;
+    height: 596px;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../images/jungle2.webp);
+    border-radius: 8px;
+    background-size: cover;
+
+}
+
+.div__half--img-child{
+    width: 1031px;
+    height: 532px;
+    z-index: 3;
+    position: absolute;
+    margin: 0 80px;
+
+}
+/* curiosity div  */
+.div__half--title-curiosity{
+
+    width: 577px;
+    height: 43px;
+    margin: 409px 0 233px 233px;
+    text-align: center;
+    position:absolute;
+    font-family: 'myCircularM', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing:-0.76px;
+    Color:#fff;
+}
+
+/* button flexible */
+.div__half--button-flexible{
+    font-family: 'myCircularB', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    width: 161px;
+    height: 56px;
+    text-align: center;
+    border-radius: 1000px;
+    background-color: #fff;
+    position:absolute;
+    font-size: 18px;
+    line-height: 53px;
+    letter-spacing :0.5px;
+    box-shadow: none;
+    text-decoration: none;
+    margin: 467px 0 435px 435px;
+   
+    
+}
+/* button flexible hover */
+.div__half--button-flexible:hover{
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: all 0s ease 0s;
+    box-shadow: 0.2s ease-out;
+   
+    
+}
+
+/* button flexible text */
+
+.div__half--button-flexible-span{
+background: -webkit-linear-gradient(to right, #6F019C, #C6017E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6F019C, #C6017E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text;
+
+}
+
+/* button flexible active */
+.div__half--button-flexible:active{
+    transform: scale(0.95);
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* =========================================end of subheader================================= */
