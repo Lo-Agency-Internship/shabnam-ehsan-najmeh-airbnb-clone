@@ -397,11 +397,12 @@ top: 2px;
 }
 .UnderHeader .Inside .PinkLay .learn{
 	border-color: white;
-
+	font-family:'myCircularM';
 	border-radius: 10px;
+	font-size: 14px;
 	border: 1px solid;
 	cursor: pointer;
-	padding: 10px 16.5px;
+	padding: 12px 16.5px;
 	margin-top: 24px;
 	color: white;
 
