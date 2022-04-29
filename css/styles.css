@@ -42,6 +42,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*****************fonts**********************/
+@font-face {
+    font-family: 'myCircularB';
+    src: url(../fonts/Circular-bold.ttf);
+    
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'myCircularM';
+    src: url(../fonts/Circular-medium.ttf);
+    
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'myCircularL';
+    src: url(../fonts/Circular-light.ttf);
+    
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'myCircularBook';
+    src: url(../fonts/Circular-Book.otf);
+    
+    font-style: normal;
+    
+}
 /**************-header-*****************/
 
 .AllOfHeader{
@@ -70,11 +99,12 @@ background-color: black;
 .HeaderLinks
 {		display: flex;
 	align-items: center;
-	margin-left: 148px;
+	margin-left: 137px;
 	align-content: center;
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.25px;
+	font-family:'myCircularL';
 
 	
 }
@@ -129,12 +159,17 @@ border-radius: 20px;
 	align-items: center;
 	width: 48px;
 	height:42px;
-	padding: 10px;
+	display: flex;
+	margin-right: 1%;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 
 } 
 
 .Inside .RightNav .webimg :hover{
-	background-color: rgb(72 , 72,72);
+	border: 15px solid rgb(36, 34, 34);
+
 	border-radius: 50px;
 	
 }
@@ -142,22 +177,24 @@ border-radius: 20px;
 	display: flex;
 	align-content: center;
 	align-items: center;
+	justify-content: center;
 	color:white;
-	padding: 10px 0px;
-	height: 30px;
-	font-size: 24px;
-	font-weight:bolder;
+	width: 120px;
+	height: 42px;
+	font-family:'myCircularM';
+	border-radius: 50px;
+
 
 }
 
 .Inside .RightNav .Host a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
 }
 .Inside .RightNav .Host:hover
 {
 background-color: rgb(36, 34, 34);
-border-radius: 50px;
+/* border-radius: px; */
 }
 
 a{
@@ -166,7 +203,7 @@ a{
 }
 .HeaderLinks a{
 height: 40px;
-padding: 10px 18px;	
+padding: 10px 15px;	
 }
 
 /**********menu***************/
@@ -195,10 +232,10 @@ width: 30px;}
 .UnderHeader .Inside .SearchBox{
 	background-color: white;
 	width: 848px;
-	height: 64px;
+	height: 66px;
 	line-height: 18px;
-	margin-left: 149px;
-	border-radius: 45px;
+	margin-left: 134px;
+	border-radius: 50px;
 	
 }
 .UnderHeader .Inside .SearchBox{
@@ -232,7 +269,7 @@ button.searchbutton{
     max-width: 70px;
 	max-height: 70px;
     font-family: "Circular";
-    padding: 15px 18px;
+    padding: 15px 19px;
     border-radius: 70px;
     overflow-x: hidden;
     transition: all 0.2s ease-in-out;
@@ -242,29 +279,40 @@ button.searchbutton{
 }
 
 .location {
-	cursor: pointer;
-    width:28%;
-	font-size: 12px;
-	
-	
+	/* cursor: pointer; */
+	padding: 6px 12px;
+    width:29%;
+	font-size: 13px;
+	font-family: 'myCircularM';
 }
+
 .location:hover {
 	background-color: #EBEBEB;
-	border-right: 50%;
-	pointer-events: none;
+	pointer-events:none; 
+	position: relative;
 }
+.data{
+
+}
+
 .date:hover {
 	background-color: #EBEBEB;
 	overflow: hidden;
-	border-right: 50%;
+}
+.guestsearch{
+	width:25%;
+	font-size: 12px;
+	font-family: 'myCircularM';
+	padding: 6px 12px;
+
+
 }
 .guestsearch:hover {
 	background-color: #EBEBEB;
 	overflow: hidden;
-	border-right: 50%;
 }
 button.searchbutton :hover{
-	border: 1px solid aqua;
+
 }
 
 
@@ -273,8 +321,8 @@ button.searchbutton :hover{
 }
 .whitespace {
     position: relative;
-	left: 5px;
-	top: 10px;
+	left: 22px;
+	top: 9px;
 }
 .userinput input {
     width: 100%;
@@ -282,14 +330,15 @@ button.searchbutton :hover{
     background-color: transparent;
     padding: 1px 0px;
 	height: 80%;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 input[type=text] {
     width: 100%;
 	height: 50%;
-    padding: 10px 5px;
+    padding: 10px 22px;
     border: none;
 	outline: none;
+	font-size: 14px;
 }
 input[type=date]
 {
@@ -301,9 +350,11 @@ padding: 10px 35px;
 border-radius: 2px;
 }
 .date {
-    width: 15%;
-	padding-right: 30px;
+    width: 19%;
 	font-size: 12px;
+	font-family: 'myCircularM';
+	padding: 6px 12px;
+
 
 }
 .userinput{
@@ -317,7 +368,8 @@ border-radius: 2px;
 
 .searchbutton img{
 background: rgb(255, 56, 92) none repeat scroll;
-
+position: relative;
+top: 2px;
 }
 
 /******************pink**********************/
@@ -325,7 +377,7 @@ background: rgb(255, 56, 92) none repeat scroll;
 {
 	background-color: #FF385c;
 	width: 100%;
-	height: 368px;
+	height: 346px;
 	border-radius:15px;
 	margin-top: 77px;
 	display: flex;
@@ -336,17 +388,22 @@ background: rgb(255, 56, 92) none repeat scroll;
 
 }
 .UnderHeader .Inside .PinkLay .refugees h1{
-	font-family: circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'myCircularL', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 38px;
 	color: white;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 43px;
 }
 .UnderHeader .Inside .PinkLay .learn{
 	border-color: white;
+
 	border-radius: 10px;
 	border: 1px solid;
 	cursor: pointer;
-	padding: 8px 16px;
+	padding: 10px 16.5px;
 	margin-top: 24px;
 	color: white;
 
 }
+/***********************end of header*******************************/
