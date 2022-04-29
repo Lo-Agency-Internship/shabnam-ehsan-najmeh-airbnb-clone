@@ -79,7 +79,6 @@ background-color: black;
 	
 }
 /*****************hover***********************/
-/* Underline From Center */
 .HeaderLinks a:hover{
 	color:rgb(200, 200, 204);
 	
@@ -132,13 +131,6 @@ border-radius: 20px;
 	height:42px;
 	padding: 10px;
 
-} 
-.Inside .RightNav .webimg .material-icons
-{
-	color: white;
-	position: relative;
-	left: 24px;
-	top: 10.5px;
 } 
 
 .Inside .RightNav .webimg :hover{
@@ -195,14 +187,12 @@ padding: 10px 18px;
 .Inside .RightNav .NavTools img{
 	position: relative;
 	bottom: 2px;
-	/* top: 1px; */
 	padding-right: 5px;
 left: 5px;
 width: 30px;}
 /*************searchbox*****************/
 
 .UnderHeader .Inside .SearchBox{
-	/* display: flex; */
 	background-color: white;
 	width: 848px;
 	height: 64px;
@@ -213,7 +203,6 @@ width: 30px;}
 }
 .UnderHeader .Inside .SearchBox{
 display: flex;
-/* justify-content: space-between; */
 flex-wrap: nowrap;
 align-items: center;
 }
@@ -228,7 +217,6 @@ align-items: center;
     width: 100%;
     display: flex;
     flex-direction: row;
-	/* border: 1px solid; */
 	border-radius: 50%;
 }
 .userinput {
@@ -237,47 +225,51 @@ align-items: center;
 
 	
 }
+button.searchbutton{
+	display: flex;
+    justify-content: center;
+    background: rgb(255, 56, 92) none repeat scroll 0% 0% !important;
+    max-width: 70px;
+	max-height: 70px;
+    font-family: "Circular";
+    padding: 15px 18px;
+    border-radius: 70px;
+    overflow-x: hidden;
+    transition: all 0.2s ease-in-out;
+	position: relative;
+	right: 0px;
+	cursor: pointer;
+}
+
 .location {
 	cursor: pointer;
     width:28%;
 	font-size: 12px;
-	/* border-radius: 50%; */
+	
 	
 }
 .location:hover {
-	/* border: 1px solid; */
 	background-color: #EBEBEB;
-	/* border-radius: 100%; */
-	/* overflow: hidden; */
-	/* border-left: 1px solid; */
-	/* border-top-left-radius: 25%; */
 	border-right: 50%;
 	pointer-events: none;
 }
 .date:hover {
-	/* border: 1px solid; */
 	background-color: #EBEBEB;
-	/* border-radius: 100%; */
 	overflow: hidden;
-	/* border-left: 1px solid; */
-	/* border-top-left-radius: 25%; */
 	border-right: 50%;
 }
-.guest:hover {
-	/* border: 1px solid; */
+.guestsearch:hover {
 	background-color: #EBEBEB;
-	/* border-radius: 100%; */
 	overflow: hidden;
-	/* border-left: 1px solid; */
-	/* border-top-left-radius: 25%; */
 	border-right: 50%;
 }
-
+button.searchbutton :hover{
+	border: 1px solid aqua;
+}
 
 
 
 .div-input label {
-    /* color: rgb(0, 0, 0); */
 }
 .whitespace {
     position: relative;
@@ -303,38 +295,58 @@ input[type=date]
 {
 	outline: none;
 }
+input[type=submit], button{
+	border: none;
+padding: 10px 35px;
+border-radius: 2px;
+}
 .date {
     width: 15%;
 	padding-right: 30px;
 	font-size: 12px;
 
 }
-.guest{	font-size: 12px;
-
+.userinput{
+	display: block;
 }
 .seprateline{
 	border-left: 1px solid #e6e3e3;
 	align-self: center;
-	/* flex: 0 0 0; */
 	height: 32px;
 }
-.magnifer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 5.5%;
-	height: 10px;
-	background-image: ;
+
+.searchbutton img{
+background: rgb(255, 56, 92) none repeat scroll;
+
 }
+
 /******************pink**********************/
 .UnderHeader .Inside .PinkLay
 {
 	background-color: #FF385c;
 	width: 100%;
-	height: 365px;
+	height: 368px;
 	border-radius:15px;
 	margin-top: 77px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
 
 }
+.UnderHeader .Inside .PinkLay .refugees h1{
+	font-family: circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 38px;
+	color: white;
+}
+.UnderHeader .Inside .PinkLay .learn{
+	border-color: white;
+	border-radius: 10px;
+	border: 1px solid;
+	cursor: pointer;
+	padding: 8px 16px;
+	margin-top: 24px;
+	color: white;
 
-
+}
