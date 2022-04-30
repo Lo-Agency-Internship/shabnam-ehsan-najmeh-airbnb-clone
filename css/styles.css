@@ -504,3 +504,127 @@ background: linear-gradient(to right, #6F019C, #C6017E); /* W3C, IE 10+/ Edge, F
 
 
 /* =========================================end of subheader================================= */
+
+/* =========================================star of Inspiration================================= */
+.Inspiration_Content{
+	height: 553px;
+}
+.Inspiration_Content .Inside .Inspiration_Text h1{
+	font-size: 33px;
+	color: black;
+	width: 416px;
+	height: 85px;
+	margin-top: 96px;
+	font-family:'myCircularBook';
+	
+}
+.Inspiration_Images .Inside{
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+} 
+.Inspiration_Images .Inside img{
+width: 262px;
+height: 186px;
+margin-bottom: 0px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+
+.Under_Inspiration_images .Inside{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Under_Inspiration_images .Inside .text_under_img1{
+	background-color: #de3151;
+	width: 262px;
+	height: 175px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: -5px;
+}
+.Under_Inspiration_images .Inside .text_under_img1 h2{
+color: white;
+font-size: 27px;
+margin-top: 20px;
+margin-left: 16px;
+font-family:'myCircularM';
+}
+.Under_Inspiration_images .Inside .text_under_img1 span{
+font-size: 15px;
+color: white;
+position: relative;
+top: 8px;
+left: 16px;
+}
+
+.Under_Inspiration_images .Inside .text_under_img2{
+	background-color: #d93b30;
+	width: 262px;
+	height: 175px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: -5px;
+}
+.Under_Inspiration_images .Inside .text_under_img2 h2{
+	color: white;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-left: 16px;
+	font-family:'myCircularM';
+	}
+	.Under_Inspiration_images .Inside .text_under_img2 span{
+		font-size: 15px;
+		color: white;
+		position: relative;
+		top: 8px;
+		left: 16px;
+		}
+.Under_Inspiration_images .Inside .text_under_img3{
+	background-color: #cc2d4a;
+	width: 262px;
+	height: 175px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: -5px;
+}
+.Under_Inspiration_images .Inside .text_under_img3 h2{
+	color: white;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-left: 16px;
+	font-family:'myCircularM';
+	}
+	.Under_Inspiration_images .Inside .text_under_img3 span{
+		font-size: 15px;
+		color: white;
+		position: relative;
+		top: 8px;
+		left: 16px;
+		}
+.Under_Inspiration_images .Inside .text_under_img4{
+	background-color: #bc146e;
+	width: 262px;
+	height: 175px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-top: -5px;
+}
+.Under_Inspiration_images .Inside .text_under_img4 h2{
+	color: white;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-left: 16px;
+	font-family:'myCircularM';
+	}
+	.Under_Inspiration_images .Inside .text_under_img4 span{
+		font-size: 15px;
+		color: white;
+		position: relative;
+		top: 8px;
+		left: 16px;
+		}
+
+/* =========================================END of Inspiration================================= */
