@@ -507,7 +507,7 @@ background: linear-gradient(to right, #6F019C, #C6017E); /* W3C, IE 10+/ Edge, F
 
 /* =========================================star of Inspiration================================= */
 .Inspiration_Content{
-	height: 553px;
+	height: 458px;
 }
 .Inspiration_Content .Inside .Inspiration_Text h1{
 	font-size: 33px;
@@ -628,3 +628,113 @@ left: 16px;
 		}
 
 /* =========================================END of Inspiration================================= */
+
+
+
+/* =========================================Start of experience================================   */
+
+
+
+#experience {
+        margin-top: 96px;
+        width: 1366px;
+        max-width: 100%;
+        height:668.500px;
+        padding-top:0;
+    }
+    
+#main_title {
+        font-size: 33px;
+        padding: 0 50px 48px 37px;
+        margin-bottom: -90px;
+        margin-left: 40px;
+        font-weight: 900;
+        color: #222222;
+        letter-spacing: -0.02em;
+        line-height: 37px;
+        font-family:'circularlighttt', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    
+.experience_picture_class {
+        display: flex;
+        justify-content:space-between;
+        margin: 80px;
+
+    }
+    
+.picture_class {
+        background-position:center;
+        background-size: cover;
+        padding: 8rem;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 27.8rem;
+        padding-left:150px;
+        padding-right: 200px;
+        border-radius: 12px;
+        max-width: 50%;
+    
+    }
+    
+.picture_text_class {
+        width: 120%;
+        margin: -105px;
+        font-size: 41px;
+        font-weight:100;
+        letter-spacing:0em;
+        line-height: 41px;
+        color: white;
+        font-family:'circulartitle', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    
+    #trip {
+        background: url(../images/trip.jpg);
+        background-size:cover;
+        width:max-content;
+        margin-left: 1px;
+        margin-right: 13px;
+
+    }
+    
+    #home {
+        background: url(../images/exp.jpg); 
+        background-size:cover;
+        width:max-content;
+        margin-right: -1px;
+        margin-left: 12px;
+
+    }
+    
+.picture-on {
+        margin:-105px;
+        margin-top: 150px;
+        background: white;
+        background-position: left;
+        border-radius: 10px;
+        color: black;
+        max-width: fit-content;
+        font-family:'circulartitle' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        
+    }
+    
+.picture-on:hover {
+        background-color: #ebebeb;
+    }
+    
+.picture-on >span {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        color:black
+        
+    
+    }
+    
+    /* =========================================End of experience================================   */
+    
