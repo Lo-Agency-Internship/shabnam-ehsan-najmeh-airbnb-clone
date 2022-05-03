@@ -915,3 +915,78 @@ display: block;
 }
 
 /* =========================================End of hosting=================================*/
+/* =========================================start of footer=================================*/
+
+.alloffooter .Inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+	
+}
+.alloffooter{
+	background-color:#F7F7F7;
+	height: 399px;
+   
+}
+
+.alloffooter .Inside ul{
+    width: 279px;
+   
+   margin-top: 48px;
+}
+
+.alloffooter .Inside ul li a{
+    height: 18px;
+    line-height:2.6;
+    color: black;
+    font-size: 14px;
+    font-family: 'myCircularL';   
+}
+.alloffooter .Inside .support1{
+	padding-top: 2px;
+	 line-height: 24px;
+	 color: #000;
+}
+.alloffooter .Inside .community{
+	padding-top: 2px;
+	 line-height: 24px;
+
+}
+.alloffooter .Inside .hosting{
+	padding-top: 2px;
+	 line-height: 24px;
+}
+.alloffooter .Inside .about{
+	padding-top: 2px;
+	 line-height: 24px;
+}
+.footer hr{
+
+	margin-top: 49px;
+	margin: 0 80px;
+	color: #757575;
+
+}
+.underfooter{
+	/* height: 69px; */
+	margin: 0 80px;
+}
+
+.privacypart ul{
+	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: -7px;
+	font-family:'myCircularL';
+}
+.privacypart ul li{
+	
+	margin-left: 7px;
+}
+
+.privacypart ul li a{
+	color: black;
+	font-size: 14px;
+}
+/* =========================================end of footer=================================*/
