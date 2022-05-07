@@ -369,7 +369,7 @@ a {
 
 .UnderHeader .Inside .SearchBox {
 	background-color: white;
-	width: 848px;
+	width: 850px;
 	height: 66px;
 	line-height: 18px;
 	margin-left: 171px;
@@ -421,10 +421,10 @@ button.searchbutton {
 	justify-content: center;
 	background-color: rgb(255, 56, 92);
 	font-family: "Circular";
-	padding: 14px 13px;
+	padding: 12px 12px;
 	border-radius: 50px;
-	width: 50px;
-	height: 50px;
+	width: 47.5px;
+	height: 47.5px;
 	overflow-x: hidden;
 	position: relative;
 	right: 0px;
@@ -527,7 +527,7 @@ button {
 	height: 32px;
 }
 
-.searchbutton img {
+.searchbutton .isearch{
 	/* background: rgb(255, 56, 92) none repeat scroll; */
 	position: relative;
 	top: 2px;
