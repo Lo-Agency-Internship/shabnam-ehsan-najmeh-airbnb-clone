@@ -175,7 +175,7 @@ table {
 
 }
 
-}
+
 
 @font-face {
 	font-family: 'myCircularLL';
@@ -231,7 +231,7 @@ table {
 
 /*****************hover***********************/
 .HeaderLinks a:hover {
-	color: rgb(200, 200, 204);
+	color: rgb(133, 133, 139);
 
 }
 
@@ -239,8 +239,7 @@ table {
 	display: inline;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
-	border-radius: 10px;
-	transform: skewX(0);
+	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	position: relative;
 	overflow: hidden;
@@ -248,32 +247,38 @@ table {
 
 .hvr-underline-from-center::before {
 	content: "";
-	position: absolute;
-	z-index: -1;
-	left: 50%;
-	max-width: 4px;
-	right: 50%;
-	top: 100%;
-	background: #ebebeb;
-	height: 2px;
-	-webkit-transition-property: left, right;
-	transition-property: left, right;
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.1s;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #ebebeb;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
-.hvr-underline-from-center:hover:before,
+
 .hvr-underline-from-center:focus:before,
 .hvr-underline-from-center:active:before {
-	left: 48%;
-	border-radius: 20px;
-	right: 48%;
-	top: 100%;
-	bottom: 0;
-}
+	left:9.2%;
+	/* border-radius: 20px; */
+	right: 9.2%;
+	 /* top: 100%;
+	bottom: 0; */
+	
+} 
+.hvr-underline-from-center:hover:before{
+	left:9.2%;
+	/* border-radius: 20px; */
+	right: 9.2%;
+	background: rgb(133, 133, 139);
 
+}
 /********************rightside-nav*****************************/
 .RightNav {
 	height: 80px;
@@ -432,7 +437,7 @@ button.searchbutton {
 	padding: 6px 12px;
 	width: 29%;
 	font-size: 13px;
-	font-family: 'myCircularM';
+	font-family: 'myCircularMM';
 }
 
 .location:hover {
@@ -532,8 +537,8 @@ button {
 .UnderHeader .Inside .PinkLay {
 	background-color: #FF385c;
 	width: 100%;
-	height: 346px;
-	border-radius: 15px;
+	height: 369px;
+	border-radius: 11px;
 	margin-top: 77px;
 	display: flex;
 	justify-content: center;
@@ -544,22 +549,23 @@ button {
 }
 
 .UnderHeader .Inside .PinkLay .refugees h1 {
-	font-family: 'myCircularL', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'myCircularMM', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 38px;
 	color: white;
-	font-weight: 600;
+	/* font-weight: 600; */
 	letter-spacing: -0.02em;
 	line-height: 43px;
+	
 }
 
 .UnderHeader .Inside .PinkLay .learn {
 	border-color: white;
 	font-family: 'myCircularM';
-	border-radius: 10px;
+	border-radius: 8px;
 	font-size: 14px;
 	border: 1px solid;
 	cursor: pointer;
-	padding: 12px 16.5px;
+	padding: 11px 16.5px;
 	margin-top: 24px;
 	color: white;
 
