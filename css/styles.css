@@ -343,26 +343,32 @@ a {
 
 /**********menu***************/
 .Inside .RightNav .NavTools {
-	padding: 6px 6px;
-	width: 64px;
+	padding: 7px 6px;
+	width: 64.5px;
 	height: 28px;
 	background-color: white;
 	border-radius: 25px;
-	left: 2%;
+	left: 0px;
+	right:0;
 	display: flex;
 	position: relative;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-	padding-bottom: 6px;
+	margin-left: 1px;
 }
 
 .Inside .RightNav .NavTools img {
 	position: relative;
 	bottom: 2px;
-	padding-right: 5px;
-	left: 5px;
+	padding-right: 4px;
+	left: 0px;
 	width: 30px;
+	top: -3px;
+	padding-left: 7px;
+}
+.navtools-account{
+	margin-left: 1px;
 }
 
 /*************searchbox*****************/
@@ -424,7 +430,7 @@ button.searchbutton {
 	font-family: "Circular";
 	padding: 12px 12px;
 	border-radius: 50px;
-	width: 47.5px;
+	width: 48px;
 	height: 47.5px;
 	overflow-x: hidden;
 	position: relative;
