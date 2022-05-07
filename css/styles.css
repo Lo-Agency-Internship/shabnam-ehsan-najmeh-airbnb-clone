@@ -970,6 +970,14 @@ display: block;
     font-size: 14px;
     font-family: 'myCircularL';
 }
+.alloffooter .Inside ul li :hover{
+text-decoration: underline;
+color: #000;
+}
+.underfooter .privacypart .private :hover{
+	text-decoration: underline;
+	color: black;
+}
 .alloffooter .Inside .support1{
 	padding-top: 2px;
 	 line-height: 24px;
