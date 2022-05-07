@@ -410,6 +410,7 @@ a {
 	background-color: rgb(255, 56, 92);
 
 	border-radius: 50px;
+	margin-right: -3px;
 }
 
 .mybtn :hover {
