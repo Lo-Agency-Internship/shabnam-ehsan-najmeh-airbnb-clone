@@ -420,7 +420,7 @@ a {
 }
 
 .userinput {
-	padding: 7px 19px;
+	padding: 5px 19px;
 	border-radius: 50px;
 
 
@@ -455,7 +455,7 @@ button.searchbutton {
 
 .location {
 	/* cursor: pointer; */
-	padding: 6px 12px;
+	padding: 4px 12px;
 	width: 29%;
 	font-size: 13px;
 	font-family: 'myCircularMM';
@@ -480,13 +480,13 @@ button.searchbutton {
 	width: 25%;
 	font-size: 12px;
 	font-family: 'myCircularM';
-	padding: 6px 12px;
+	padding: 4px 12px;
 
 
 }
 
 .guestsearch:hover {
-	/* background-color: #EBEBEB; */
+	background-color: #EBEBEB;
 	overflow: hidden;
 }
 
@@ -541,7 +541,7 @@ button {
 	width: 19%;
 	font-size: 12px;
 	font-family: 'myCircularM';
-	padding: 6px 12px;
+	padding: 4px 12px;
 
 
 }
