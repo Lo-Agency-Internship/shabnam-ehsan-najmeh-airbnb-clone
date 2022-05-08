@@ -464,7 +464,9 @@ button.searchbutton {
 .location:hover {
 	background-color: #EBEBEB;
 	pointer-events: none;
-	position: relative;
+	overflow-y: 0;
+	cursor: pointer;
+	
 }
 
 .data {}
@@ -496,8 +498,10 @@ button.searchbutton :hover {}
 
 .whitespace {
 	position: relative;
-	left: 22px;
+	letter-spacing: 0.6px;
+	left: 20px;
 	top: 9px;
+	font-size: 12px;
 }
 
 .userinput input {
@@ -516,6 +520,10 @@ input[type=text] {
 	border: none;
 	outline: none;
 	font-size: 14px;
+	position: relative;
+	left: -2px;
+	text-indent: 0px;
+	font-family: 'myCircularLL', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
 }
 
 input[type=date] {
@@ -546,6 +554,8 @@ button {
 	border-left: 1px solid #e6e3e3;
 	align-self: center;
 	height: 32px;
+	position: relative;
+	left: 7px;
 }
 
 .searchbutton .isearch{
