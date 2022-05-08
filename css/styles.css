@@ -394,6 +394,7 @@ a {
 	line-height: 18px;
 	margin-left: 171px;
 	border-radius: 50px;
+	cursor: pointer;
 
 }
 
@@ -474,6 +475,7 @@ button.searchbutton {
 .date:hover {
 	background-color: #EBEBEB;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .guestsearch {
@@ -488,6 +490,7 @@ button.searchbutton {
 .guestsearch:hover {
 	background-color: #EBEBEB;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 button.searchbutton :hover {}
@@ -1211,10 +1214,11 @@ hr.new {
 	/* margin-top: 100px;
 	margin: 0 80px;
 	color: #757575; */
-	margin-top: 48px;
+	margin-top: 43px;
 	 margin-left: 80px;
 	  margin-right: 80px; 
 	  border: 0.01px solid rgb(221,221,221);
+	  opacity: 47%;
 	   
 
 }
@@ -1247,41 +1251,49 @@ hr.new {
 .privacypart .li-m{
 
 	position: relative; 
-	left: 512px;
-	top: 7px;
+	left: 516px;
+	top: 14px;
 }
 
 .privacypart .li-e{
 	position: relative; 
-	left: 496px;
-	top: 7px;
+	left: 503px;
+	top: 14px;
+	font-family: 'myCircularMM';
 }
 
 .privacypart .li-us{
 	position: relative; 
-	left: 499px;
-	top: 7px;
+	left: 512px;
+	top: 14px;
+	font-family: 'myCircularMM';
 }
 
 .privacypart .li-f{
 	position: relative; 
-	left: 557px;
-	top: 7px;
+	left: 550px;
+	top: 14px;
+	
 }
 
 .privacypart .li-t{
 	position: relative; 
-	left: 557px;
-	top: 7px;
+	left: 555px;
+	top: 14px;
 }
 
 .privacypart .li-i{
 	position: relative; 
-	left: 562px;
-	top: 7px;
+	left: 560px;
+	top: 14px;
 }
 
+.private{
 
+	position: relative;
+	top: 15px;
+	font-family: 'myCircularLL';
+}
 
 
 
