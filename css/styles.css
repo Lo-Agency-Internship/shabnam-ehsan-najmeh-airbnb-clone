@@ -1161,7 +1161,7 @@ button {
 .alloffooter .Inside ul {
 	width: 279px;
 
-	margin-top: 48px;
+	margin-top: 35px;
 }
 
 .alloffooter .Inside ul li a {
@@ -1169,8 +1169,9 @@ button {
 	line-height: 2.6;
 	color: black;
 	font-size: 14px;
-	font-family: 'myCircularL';
+	font-family: 'myCircularLL';
 }
+
 
 .alloffooter .Inside ul li :hover {
 	text-decoration: underline;
@@ -1184,24 +1185,25 @@ button {
 
 .alloffooter .Inside .support1 {
 	padding-top: 2px;
-	line-height: 24px;
+	line-height: 30px;
 	color: #000;
+	margin-left: -27px;
 }
 
 .alloffooter .Inside .community {
 	padding-top: 2px;
-	line-height: 24px;
+	line-height: 32px;
 
 }
 
 .alloffooter .Inside .hosting {
 	padding-top: 2px;
-	line-height: 24px;
+	line-height: 32px;
 }
 
 .alloffooter .Inside .about {
 	padding-top: 2px;
-	line-height: 24px;
+	line-height: 32px;
 }
 
 .footer hr {
