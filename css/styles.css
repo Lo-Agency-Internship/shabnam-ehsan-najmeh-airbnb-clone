@@ -714,10 +714,10 @@ button {
 .Inspiration_Content .Inside .Inspiration_Text h1 {
 	font-size: 33px;
 	color: black;
-	width: 416px;
+	width: 434px;
 	height: 85px;
 	margin-top: 96px;
-	font-family: 'myCircularBook';
+	font-family: 'myCircularMM';
 
 }
 
@@ -729,11 +729,12 @@ button {
 }
 
 .Inspiration_Images .Inside img {
-	width: 262px;
+	width: 279px;
 	height: 186px;
 	margin-bottom: 0px;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
+	cursor: pointer;
 }
 
 .Under_Inspiration_images .Inside {
@@ -744,11 +745,12 @@ button {
 
 .Under_Inspiration_images .Inside .text_under_img1 {
 	background-color: #de3151;
-	width: 262px;
+	width: 279px;
 	height: 175px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
+	cursor: pointer;
 }
 
 .Under_Inspiration_images .Inside .text_under_img1 h2 {
@@ -769,11 +771,12 @@ button {
 
 .Under_Inspiration_images .Inside .text_under_img2 {
 	background-color: #d93b30;
-	width: 262px;
+	width: 279px;
 	height: 175px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
+	cursor: pointer;
 }
 
 .Under_Inspiration_images .Inside .text_under_img2 h2 {
@@ -794,11 +797,12 @@ button {
 
 .Under_Inspiration_images .Inside .text_under_img3 {
 	background-color: #cc2d4a;
-	width: 262px;
+	width: 279px;
 	height: 175px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
+	cursor: pointer;
 }
 
 .Under_Inspiration_images .Inside .text_under_img3 h2 {
@@ -819,11 +823,12 @@ button {
 
 .Under_Inspiration_images .Inside .text_under_img4 {
 	background-color: #bc146e;
-	width: 262px;
+	width: 279px;
 	height: 175px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
+	cursor: pointer;
 }
 
 .Under_Inspiration_images .Inside .text_under_img4 h2 {
@@ -861,7 +866,7 @@ button {
 #main_title {
 	font-size: 33px;
 	padding: 0 50px 48px 37px;
-	margin-bottom: -90px;
+	margin-bottom: -81px;
 	margin-left: 40px;
 	color: #222222;
 	letter-spacing: -0.02em;
@@ -892,7 +897,7 @@ button {
 
 .picture_text_class {
 	width: 120%;
-	margin: -105px;
+	margin: -87px -108px -108px -108px;
 	font-size: 41px;
 	font-weight: 100;
 	letter-spacing: 0em;
@@ -982,14 +987,14 @@ button {
 	position: absolute;
 	width: 385px;
 	height: 450px;
-	margin-left: 95px;
+	margin-left: 87px;
 
 }
 
 .div__cart--span-shopAir {
 
 	color: #222222;
-	font-family: 'myCircularM', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+	font-family: 'myCircularMM', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
 	font-size: 41px;
 	height: 92px;
 	line-height: 46px;
