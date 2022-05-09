@@ -749,7 +749,7 @@ button {
 .Under_Inspiration_images .Inside .text_under_img1 {
 	background-color: #de3151;
 	width: 279px;
-	height: 175px;
+	height: 187px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
@@ -775,7 +775,7 @@ button {
 .Under_Inspiration_images .Inside .text_under_img2 {
 	background-color: #d93b30;
 	width: 279px;
-	height: 175px;
+	height: 187px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
@@ -801,7 +801,7 @@ button {
 .Under_Inspiration_images .Inside .text_under_img3 {
 	background-color: #cc2d4a;
 	width: 279px;
-	height: 175px;
+	height: 187px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
@@ -827,7 +827,7 @@ button {
 .Under_Inspiration_images .Inside .text_under_img4 {
 	background-color: #bc146e;
 	width: 279px;
-	height: 175px;
+	height: 187px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	margin-top: -5px;
@@ -864,6 +864,7 @@ button {
 	max-width: 100%;
 	height: 668.500px;
 	padding-top: 0;
+	
 }
 
 #main_title {
@@ -967,7 +968,7 @@ button {
 	width: 100%;
 	height: 450.328px;
 	position: relative;
-	margin-top: 96px;
+	margin-top: 91px;
 }
 
 .div__cart--right {
